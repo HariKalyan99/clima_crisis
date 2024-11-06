@@ -6,21 +6,25 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Climatic Crisis</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5121/5121063.png" type="image/icon type">
   </head>
   <body>
 
     <!-- section with navbar  -->
+
     <header>
       <div class="navbar">
-        <div class="logo-txt">
-          <h2>The Green</h2>
-          <h2>Trees Initiative</h2>
-        </div>
+        <a href="index.html" style="text-decoration: none;">
+          <div class="logo-txt">
+            <h2>The Green</h2>
+            <h2>Trees Initiative</h2>
+          </div>
+        </a>
         <div class="about">
           <ul style="list-style: none">
-            <li>About us</li>
-            <li>Our stories</li>
-            <li>News and events</li>
+            <li><a href="./about.html" >About us</a></li>
+            <li><a href="./stories.html" >Our stories</a></li>
+            <li><a href="./eventsandnews.html" >Events and news</a></li>
           </ul>
         </div>
         <i class="fa fa-navicon nav-icon" onclick="navIcon()"></i>
@@ -30,9 +34,9 @@
     <!-- nav-btn -->
     <div class="d-none" id="nav-toggle" >
       <ul style="list-style: none">
-        <li>About us</li>
-        <li>Our stories</li>
-        <li>News and events</li>
+        <li><a href="./about.html" style="text-decoration: none; color: black;">About us</a></li>
+        <li><a href="./stories.html" style="text-decoration: none; color: black;">Our stories</a></li>
+        <li><a href="./eventsandnews.html" style="text-decoration: none; color: black;">News and posts</a></li>
       </ul>
       <button class="donate-btn">Donate Today</button>
     </div>
