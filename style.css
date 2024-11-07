@@ -2036,7 +2036,7 @@ header {
 
   /* team container @tablet */
   .team-main-container {
-    height: 80em;
+    height: 100em;
     width: 100%;
     background-color: #ffffff;
     display: flex;
