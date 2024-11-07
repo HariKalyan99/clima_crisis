@@ -3914,6 +3914,10 @@ header {
   .legacy-header {
     display: none;
   }
+  .legacy > h1 {
+    display: block;
+    text-align: center;
+    font-size: 2rem;}
 
   .right-arrow {
     height: 3rem;
@@ -3964,14 +3968,14 @@ header {
 
   .year-box {
     background-color: #ffffff;
-    width: 35%;
+    width: 45%;
     height: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 3rem;
-    left: 7rem;
+    left: 28%;
   }
 
   .year-contributions-card {
@@ -4010,12 +4014,12 @@ header {
   }
 
   .inner-year-card > h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #354463;
   }
 
   .inner-year-card > p {
-    font-size: medium;
+    font-size: small;
     color: #354463;
   }
 
@@ -4386,6 +4390,10 @@ header {
     width: 100%;
     object-fit: cover;
   }
+
+  
+
+
 
   /* start of all entries section from news and posts */
 
