@@ -107,7 +107,7 @@ header {
 .donate-btn:hover {
   background-color: #354463;
   cursor: pointer;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 /* hero section */
