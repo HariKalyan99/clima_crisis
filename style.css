@@ -4652,23 +4652,13 @@ header {
     align-items: center;
   }
 
-  .heading-feature-news-main {
-    height: 70%;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
 
   .heading-feature-news-main > h1 {
     font-size: 1.1rem;
-    color: white;
   }
 
   .heading-feature-news-main > a {
     font-size: 0.4rem;
-    color: white;
   }
 
 
