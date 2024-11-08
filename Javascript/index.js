@@ -31,7 +31,7 @@ function onLoading(){
           </ul>
         </div>
         <i class="fa fa-navicon nav-icon" onclick="navIcon()"></i>
-        <button class="donate-btn"><span>Donate Today</span></button>
+        <button class="donate-btn" onclick="donatePage()"><span>Donate Today</span></button>
       `;
 
       navigation.append(navBarContainer);
@@ -547,6 +547,7 @@ function onLoading(){
 }
 
 
+
 document.addEventListener('DOMContentLoaded', () => {
     onLoading();
 })
@@ -564,6 +565,11 @@ function navIcon() {
     }else {
       nav.className = "d-none"
     }
+}
+
+
+function donatePage(){
+  window.location = '../donate.html';
 }
 
 
