@@ -17,9 +17,9 @@
         <div class="donation-nav">
           <span> The Green </span>
           <span> Trees Initiative </span>
-        </header>
         </div>
     </a>
+      </header>
 
     <section class="donate-form-main">
       <div class="donate-form">
@@ -29,19 +29,19 @@
             <div class="your-info">
               <div class="info1">
                 <label for="first-name">FIRST NAME</label>
-                <input type="text" placeholder="First name" />
+                <input type="text" name="first-name" placeholder="First name" class="first-name" value=""/>
               </div>
               <div class="info2">
                 <label for="last-name">LAST NAME</label>
-                <input type="text" placeholder="Last name" />
+                <input type="text" placeholder="Last name" name="last-name" value=""/>
               </div>
               <div class="info3">
                 <label for="street-address">STREET ADDRESS</label>
-                <input type="text" placeholder="Steet Address" />
+                <input type="text" placeholder="Steet Address" name="street-address" value=""/>
               </div>
               <div class="info4">
                 <label for="city">CITY</label>
-                <input type="text" placeholder="City" />
+                <input type="text" placeholder="City" name="city" value=""/>
               </div>
               <div class="info5">
                 <label for="state">STATE</label>
@@ -54,30 +54,30 @@
               </div>
               <div class="info6">
                 <label for="postal-code">ZIP CODE</label>
-                <input type="text" name="postal" id="" placeholder="Zip Code" />
+                <input type="text" name="postal" id="postal-code" placeholder="Zip Code" name="postal-code"/>
               </div>
               <div class="info7">
                 <label for="email">EMAIL ADDRESS</label>
-                <input type="email" placeholder="Email Address" />
+                <input type="email" placeholder="Email Address" id="email" name="email"/>
               </div>
             </div>
             <h1>Payment information</h1>
             <div class="payment-info">
               <div class="pInfo1">
                 <label for="credit-card-number">CREDIT CARD NUMBER</label>
-                <input type="text" placeholder="Credit Card Number" />
+                <input type="text" placeholder="Credit Card Number" name="credit-card-number" id="credit-card-number"/>
               </div>
               <div class="pInfo2">
                 <label for="expiration-month">EXPIRATION</label>
-                <input type="text" placeholder="MM" />
+                <input type="text" placeholder="MM" id="expiration-month" name="expiration-month"/>
               </div>
               <div class="pInfo3">
                 <label for="expiration-year">YEAR</label>
-                <input type="text" placeholder="YYYY" />
+                <input type="text" placeholder="YYYY" name="expiration-year" id="expiration-year"/>
               </div>
               <div class="pInfo4">
                 <label for="Cvv">CVV</label>
-                <input type="password" placeholder="CVC" />
+                <input type="password" placeholder="CVC" name="cvv" id="cvv"/>
               </div>
             </div>
 
@@ -87,7 +87,7 @@
             </h1>
             <div class="process-confirm">
               <a href="./index.html" style="color: #c1f7d5">Go Back</a>
-              <button class="read-more">Process Payment</button>
+              <button class="read-more" type="submit" type="submit">Process Payment</button>
             </div>
           </form>
         </div>
@@ -133,6 +133,8 @@
         <div class="stop-climate-txt"><h1>#STOP CLIMATE CHANGE</h1></div>
       </div>
     </footer>
+
+   
 
     <div class="flask">
       <img
